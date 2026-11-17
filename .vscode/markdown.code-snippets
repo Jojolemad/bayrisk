@@ -1,0 +1,56 @@
+{
+  "Préparation réunion": {
+    "scope": "markdown",
+    "prefix": "prepa",
+    "body": [
+      "# Préparation réunion du ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}",
+      "",
+      "## Avancement depuis la dernière réunion",
+      "- ",
+      "",
+      "## Points à aborder",
+      "- ",
+      "",
+      "## Questions / blocages",
+      "- ",
+      ""
+    ]
+  },
+  "Compte-rendu réunion": {
+    "scope": "markdown",
+    "prefix": "cr",
+    "body": [
+      "# Compte-rendu réunion du ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}",
+      "",
+      "## Ce qui a été dit",
+      "- ",
+      "",
+      "## Décisions",
+      "- ",
+      "",
+      "## À faire avant la prochaine réunion",
+      "- [ ] ",
+      ""
+    ]
+  },
+  "Note sur un document": {
+    "scope": "markdown",
+    "prefix": "doc",
+    "body": [
+      "# ${1:Titre}",
+      "",
+      "Type : ${2|article,vidéo,doc technique,cours,autre|}  |  Source : ${3:@citekey ou URL}",
+      "Le : ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}",
+      "",
+      "## Résumé",
+      "$0",
+      "",
+      "## Utile pour le projet",
+      "- ",
+      "",
+      "## À creuser",
+      "- ",
+      ""
+    ]
+  }
+}
