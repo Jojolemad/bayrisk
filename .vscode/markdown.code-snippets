@@ -42,7 +42,10 @@
       "Type : ${2|article,vidéo,doc technique,cours,autre|}  |  Source : ${3:@citekey ou URL}",
       "Le : ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}",
       "",
-      "## Résumé",
+      "## Résumé court",
+      "$0",
+      "",
+      "## Détails",
       "$0",
       ""
     ]
