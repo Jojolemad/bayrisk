@@ -26,7 +26,8 @@ extensions = [
     'sphinx_autodoc_typehints', # DRY type hints
     'sphinx_copybutton', # easy copy code block
     'sphinxcontrib.bibtex', # bibtex style citation
-    'sphinx_toolbox.collapse',  # collapsable section
+    # 'sphinx_toolbox.collapse',  # collapsable section
+    'sphinx_design',     # remplace sphinx_toolbox.collapse
     ]
 
 templates_path = ['_templates']
