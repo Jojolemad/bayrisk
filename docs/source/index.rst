@@ -3,32 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-bayrisk documentation
-=====================
+Table of Contents
+=================
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Presentation
 
-###########
-Part Title
-###########
+   bayesian-networks-basics/index
 
-.. math::
-    :label: eq:name
-
-    \cfrac{\partial f}{\partial \theta}
-
-**************
-Chapter Title
-**************
-
-
-
-Subsection Title
------------------
-
-Subsubsection Title
-^^^^^^^^^^^^^^^^^^^^
-
-Paragraph Title
-"""""""""""""""
+References
+==========
 
 .. bibliography::
+   :all:
