@@ -7,8 +7,28 @@ bayrisk documentation
 =====================
 
 
-.. automodule:: monpackage
-   :members:
-   :undoc-members:
+###########
+Part Title
+###########
+
+.. math::
+    :label: eq:name
+
+    \cfrac{\partial f}{\partial \theta}
+
+**************
+Chapter Title
+**************
+
+
+
+Subsection Title
+-----------------
+
+Subsubsection Title
+^^^^^^^^^^^^^^^^^^^^
+
+Paragraph Title
+"""""""""""""""
 
 .. bibliography::
