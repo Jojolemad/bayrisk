@@ -1,3 +1,9 @@
+import pathlib
+import sys
+
+root = pathlib.Path(__file__).parents[2].resolve()
+sys.path.insert(0, root.as_posix())
+
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -13,7 +19,15 @@ author = 'AxelB'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    'sphinx.ext.autodoc', # documentation in code
+    'sphinx.ext.viewcode', # link to source
+    'sphinx.ext.napoleon', # google style docstrings
+    'sphinx_autodoc_typehints', # DRY type hints
+    'sphinx_copybutton', # easy copy code block
+    'sphinxcontrib.bibtex', # bibtex style citation
+    'sphinx_toolbox.collapse',  # collapsable section
+    ]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -25,3 +39,7 @@ exclude_patterns = []
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+
+# bibliography files
+bibtex_bibfiles = ['../../references.bib']
