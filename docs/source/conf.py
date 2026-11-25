@@ -12,7 +12,7 @@ sys.path.insert(0, root.as_posix())
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'bayrisk'
+project = 'PRI Bayesian Network'
 copyright = '2026, AxelB'
 author = 'AxelB'
 

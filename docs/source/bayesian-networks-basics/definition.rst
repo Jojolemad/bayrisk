@@ -1,3 +1,0 @@
-Useful formulas and definitions
-================================
-
